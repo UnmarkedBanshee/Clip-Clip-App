@@ -6,4 +6,4 @@ app.secret_key = 'none'
 
 @app.route("/")
 def index():
-    return render_template('index.html')
+    return "hello"
